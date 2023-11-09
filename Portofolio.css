@@ -1,0 +1,111 @@
+.box-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.box-1 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1px;
+    border: 1px solid #ccc;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+    background-color: rgb(252, 232, 180);
+    color: white;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.socialmedia {
+    width: 300px;
+    margin: auto;
+}
+
+.icon-socialmedia {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    object-fit: contain;
+}
+
+.box-2 {
+    flex-direction: column;
+    display: inline;
+    width: 70x;
+    padding: 1px;
+    border: 1px solid #ccc;
+    text-align: justify;
+    border-radius: 4px;
+    background-color: rgb(252, 232, 180);
+    color: rgb(0, 0, 0);
+}
+
+.introduce-myself {
+    flex-direction: column;
+    display: block;
+    width: 70x;
+    padding: 1px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+.nama {
+    font-weight: bold;
+    background-color: rgb(135, 199, 207);
+    font-size: larger;
+}
+
+.my-work {
+    flex-direction: column;
+    display: block;
+    width: 70x;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+.work {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(135, 199, 207);
+}
+
+.my-passion {
+    display: block;
+    width: 70x;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+.passion {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(135, 199, 207);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; /* Center align your content */
+    padding: 20px; /* Add some padding around the content */
+}
+
+.box-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
